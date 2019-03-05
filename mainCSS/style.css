@@ -1,9 +1,10 @@
 
 /* styling day2_index.html */
-body{
-    padding: 20px;
-}
+
 .main-content{
+    max-width: 70rem;
+    margin: auto;
+    padding: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -15,7 +16,7 @@ h1, h4, img{
 }
 div input{
     padding: 5px;
-    margin-left: 20px;
+    margin: 10px 5px 10px 20px;
     border: thin solid green;
 }
 .form-input{
