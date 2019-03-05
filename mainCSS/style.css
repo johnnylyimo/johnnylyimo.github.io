@@ -2,10 +2,8 @@
 /* styling day2_index.html */
 body{
     padding: 20px;
-    width: 100%;
 }
 .main-content{
-    width: 70%;
     display: flex;
     flex-direction: column;
 }
