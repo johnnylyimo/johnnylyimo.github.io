@@ -9,15 +9,55 @@
 </head>
 
 <body>
-    <img src="img/10000Coders.png" alt="10000Coders image">
-    <h1>Welcome to 10000 Codes Pragramming Challenge</h1>
-    <div>
-        <p>Hello guys,</p>
-        <p>
-            Welcome to the HTML/CSS programming exercise by 1000 Coders. This will test your basic in HTML and CSS. You need to recreate the document you are reading now using HTML/CSS. <u>Make sure that the page looks exactyly like this document.</u>  
-        </p>
+  
+    <div class="main-content">
+            <img src="img/10000Coders.png" alt="10000Coders image">
+            <h1 class='heading'>Welcome to 10000 Codes Pragramming Challenge</h1>
+            <!-- <div> -->
+                <p>Hello guys,</p>
+                <p>
+                    Welcome to the HTML/CSS programming exercise by 10000 Coders. This will test your basic in HTML and CSS. You need to recreate the document you are reading now using HTML/CSS. <u>Make sure that the page looks exactyly like this document.</u>  
+                </p>
+            <!-- </div> -->
+            <h2 class='heading'>General Instructions</h2>
+            <ol>
+                <li>There will be a 15px margin between all elements in the form shown below</li>
+                <li>Use external CSS for styling</li>
+                <li>This exercise will cover the following construction of HTML</li>
+                <ul>
+                    <li>HTML Form</li>
+                    <li>Text inputs with placeholders</li>
+                    <li>Text area</li>
+                    <li>Passoword input</li>
+                    <li>Select drop-down box</li>
+                    <li>Radio buttons</li>
+                    <li>Checkboxes and </li>
+                    <li>Buttons</li>
+                </ul>
+            </ol>
+            <h4>so, let's get started. All the best !</h4>
+            <form>
+                
+                <div>
+                    <label for="fullName">Full Name</label>
+                    <input type="text" placeholder="Enter your first name">
+                </div>
+                <div>
+                    <label for="secrePin">Secret Pin</label>
+                    <input type="password" placeholder="Enter your secret pini">
+                </div>
+                
+                <div>
+                    <label for="genderChoose">Gender</label>
+                    <input class="form-input" type="radio" name="gender" id='male'>
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id='female'>
+                    <label for="Female">Female</label>
+                </div>
+                
+            </form>
+            
     </div>
-    
     
 </body>
 </html>

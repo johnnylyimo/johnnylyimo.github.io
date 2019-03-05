@@ -1,10 +1,69 @@
-.cover {
-    background: url('../img/images.jpg') no-repeat center;
-    background-size:fit;
+
+/* styling day2_index.html */
+body{
+    padding: 20px;
+    width: 100%;
+}
+.main-content{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.heading{
+    color: blue;
+}
+h1, h4, img{
+    align-self: center;
+}
+div input{
+    padding: 5px;
+    margin-left: 20px;
+    border: thin solid green;
+}
+.form-input{
+    color:green;
+}
+form div{
+    margin-top: 10px;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* styling day1_index.html Fakescodes site */
+
+.cover {
+    background: url('../img/images.jpg') no-repeat center;
+    background-size:fit;
+}
 
 
 .transbox {
