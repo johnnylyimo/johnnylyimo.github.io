@@ -14,16 +14,112 @@
 h1, h4, img{
     align-self: center;
 }
-div input{
+div input,textarea{
     padding: 5px;
     margin: 10px 5px 10px 20px;
     border: thin solid green;
 }
-.form-input{
-    color:green;
+#field-study{
+    border: thin solid green;
+}
+
+/* Create custom radio button */
+div input[type="radio"]  {
+     /* removes the browser's native UI design and allows you to style your own.  */
+    -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+
+ /* create custom radiobutton appearance */
+     display: inline-block;
+     position: relative;
+     height: 15px;
+     width: 15px;
+     top: 11px;
+     border-radius: 50px;
+     margin-right: 7px;
+     outline: none;
+     cursor: pointer;     
+
+    /* background-color only for content */
+     background-color: #f1f1f1;
+     border: 1px solid green;
+
+  }
+
+div input[type="radio"]:checked::before {
+    position: absolute;
+    font: 10px/1 'Open Sans', sans-serif;
+    left: 4px;
+    top: 1px;
+    content: '\02143';
+    transform: rotate(40deg);
+    color: #fff;
+ } 
+ 
+div input[type="radio"]:checked {
+     background-color: green;
+  }   
+
+div input[type="radio"]:hover{
+       background-color: green;
+  }
+
+
+
+/* Create custom checkbox; */
+  div input[type="checkbox"]  {
+    /* removes the browser's native UI design and allows you to style your own.  */
+   -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+/* create custom radiobutton appearance */
+    display: inline-block;
+    position: relative;
+    height: 15px;
+    width: 15px;
+    top: 11px;
+    border-radius: 3px;
+    margin-right: 7px;
+    outline: none;
+    cursor: pointer;     
+
+   /* background-color only for content */
+    background-color: #f1f1f1;
+    border: 1px solid green;
+
+ }
+
+ div input[type="checkbox"]:checked::before {
+    position: absolute;
+    font: 10px/1 'Open Sans', sans-serif;
+    left: 4px;
+    top: 1px;
+    content: '\02143';
+    transform: rotate(40deg);
+    color: #fff;
+ } 
+ 
+div input[type="checkbox"]:checked {
+     background-color: green;
+  }   
+
+div input[type="checkbox"]:hover{
+       background-color: green;
+  }
+
+
+#btnSubmit{
+    margin-top: 80px;
+}
+
+div textarea{
+    margin-bottom: -70px;
+    margin-top: 5px;
 }
 form div{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 

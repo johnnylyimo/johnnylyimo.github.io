@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>10000Coders_day2</title>
     <link rel="stylesheet" href="mainCSS/style.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -40,33 +41,40 @@
                 
                 <div>
                     <label for="fullName">Full Name</label>
-                    <input type="text" placeholder="Enter your first name">
+                    <input type="text" placeholder="Enter your first name" required>
                 </div>
                 <div>
                     <label for="secrePin">Secret Pin</label>
-                    <input type="password" placeholder="Enter your secret pini">
+                    <input type="password" placeholder="Enter your secret pini" required>
                 </div>
                 
                 <div>
                     <label for="genderChoose">Gender</label>
-                    <input class="form-input" type="radio" name="gender" id='male'>
+                    <input class="form-input" type="radio" name="gender" id='male' required>
                     <label for="male">Male</label>
-                    <input type="radio" name="gender" id='female'>
+                    <input type="radio" name="gender" id='female' required>
                     <label for="Female">Female</label>
                 </div>
                 <div>
                     <label for="expertChoose">I am an expert in</label>
                     <input type="checkbox" id="html">
                     <label for="expertHTML">HTML</label>
-                    <input type="checkbox" id="css">
+                    <input type="checkbox" id="css" required>
                     <label for="expertCSS">CSS</label>
                 </div>
                 <div>
                     <label for="field-study">My field of study is</label>
-                    <Select id="field-study" >
+                    <Select id="field-study" name ="field-study" required>
                         <option value="Instructions">Select your branch using this select drop-down</option>
                     </Select>
                 </div>
+                <div>
+                    <label for="tellinMore">Tell more about yourself</label>
+                    <textarea name="tellingMore" id="telling-more" cols="40" rows="3" required></textarea>
+                </div>
+                <button class="btn btn-primary" type="submit" id="btnSubmit">
+                    Submit Form
+                </button>
                 
             </form>
             
