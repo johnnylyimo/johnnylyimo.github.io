@@ -17,15 +17,18 @@
 h1, h4, img{
     align-self: center;
 }
-div input,textarea{
+
+
+div input,textarea, label, select, button{
     padding: 5px;
-    margin: 10px 5px 10px 20px;
+    margin: 15px;
+}
+
+div input,textarea,select{
     border: thin solid green;
 }
 
-form div{
-    margin: 15px;
-}
+
 
 
 
@@ -41,7 +44,7 @@ div input[type="radio"]  {
      position: relative;
      height: 15px;
      width: 15px;
-     top: 11px;
+     top: 15px;
      border-radius: 50px;
      margin-right: 7px;
      outline: none;
@@ -85,7 +88,7 @@ div input[type="radio"]:hover{
     position: relative;
     height: 15px;
     width: 15px;
-    top: 11px;
+    top: 15px;
     border-radius: 3px;
     margin-right: 7px;
     outline: none;
@@ -121,7 +124,6 @@ div input[type="checkbox"]:hover{
 
 div textarea{
     margin-bottom: -70px;
-    /* margin-top: 5px; */
 }
 
 
