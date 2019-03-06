@@ -23,6 +23,9 @@ div input,textarea{
     border: thin solid green;
 }
 
+form div{
+    margin: 15px;
+}
 
 
 
@@ -118,10 +121,7 @@ div input[type="checkbox"]:hover{
 
 div textarea{
     margin-bottom: -70px;
-    margin-top: 5px;
-}
-form div{
-    margin-top: 5px;
+    /* margin-top: 5px; */
 }
 
 
