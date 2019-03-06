@@ -1,2 +1,2 @@
 # johnnylyimo.github.io
-Temporarly hosting site for my project. Thanks to Github
+Temporarly hosting platform for my projects. Thanks to Github
