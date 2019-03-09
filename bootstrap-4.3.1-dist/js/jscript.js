@@ -1,3 +1,5 @@
+// JavaScript codes for Day 3
+
 // Access DOM elements
 const button = document.getElementById("btn");
 const calcRadioBtns = document.getElementsByName('operation');
@@ -78,8 +80,8 @@ const operartion_Btns =document.getElementById('radioBtnOper');
         }
 
         else { // No radio button checked, display error
-            oper_Error.classList.remove('d-none');
-            oper_Error.classList.add('d-block');
+            // oper_Error.classList.remove('d-none');
+            // oper_Error.classList.add('d-block');
         }
       });
     }
