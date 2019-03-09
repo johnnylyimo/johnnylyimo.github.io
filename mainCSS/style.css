@@ -142,10 +142,36 @@ div textarea{
 
 
 
+/* styling day3_index.html */
+#body-day3{
+    margin: 20px 10px;
+    font-family :Verdana, arial, Tahoma, "Times New Roman" Georgia, serif, sans-serif;
+
+    background-color:#c9c9c9;  
+
+}
 
 
 
+.boxShadow{
+    min-width:52rem;
+    max-width:78rem;
+    margin: 40px auto;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    border: 1px solid lightgray;
+  
+    box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
+          -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
+          -webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+          -o-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
+  }
 
+
+#radioBtnOper{
+    width:28rem;
+}
 
 
 
