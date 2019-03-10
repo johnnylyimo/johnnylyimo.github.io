@@ -1,45 +1,5 @@
 
 
-// JavaScript codes for Day 2
-let buttonSubmit = document.getElementById('btnSubmit');
-
-
-// buttonSubmit.addEventListener('click', ($event) =>{
-
-    buttonSubmit.onclick = ($event) =>{
-
-    $event.preventDefault();
-    const inputName = document.getElementById('firstName');
-
-    // Validate user input
-    if (inputName.value.length === 0){
-        alert ('Fullname is missing!')
-        inputName.focus();
-    }else{
-        alert('Name: ' + inputName.value);
-    }
-};
-// });
-
-
-  // access Radiobuttons DOM elements
-  const Radiobuttons = document.getElementsByName('gender');
-  Array.from(Radiobuttons).forEach(function(radio, index, arr){
-    radio.onclick = ($event)=>{
-        alert($event.target.value + ' Selected!');
-    };
-  });
-
-
-
-
-
-
-
-
-
-// JavaScript codes for Day 3
-
 // Function defination
 function add(num1, num2){
     return num1 + num2;
