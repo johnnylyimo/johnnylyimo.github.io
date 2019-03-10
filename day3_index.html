@@ -12,59 +12,73 @@
 </head>
 <body id="body-day3">
     <section class="boxShadow">
-        <div class="text-center">
-            <img src="img/10000Coders.png" alt="10000Coders image">
-            <span class='h1 text-center d-block'>Calculator</span>
-        </div>
-            
-        <div class=" d-inline-flex flex-row justify-content-between">
-                <form id="calcSumForm">
-                    <div class="form-inline mb-3 ">
-                        <small class="d-none text-danger" id='operError'>Either First Number is missing! \nor Invalid input(Letters/symbols not allowed!)</small>
-                        <label for="first-number">Enter First Number:</label>
-                        <input type="number" class="form-control ml-4" id="txtboxnum1" placeholder="First Number">
-                    </div>
-                    <div  class="form-inline mb-2">
-                        <small class="d-none text-danger" id='operError'>Either Second Number is missing! \nor Invalid input(Letters/symbols not allowed!)</small>
-                        <label for="second-number">Enter Second Number:</label>
-                        <input type="number" class="form-control ml-1" id="txtboxnum2" placeholder="Second Number">
-                    </div>
-                    
-                    </form>
-        
-                    <aside class="d-flex flex-column  justify-content-center align-items-around ml-5" >
-                        <span class="h5 text-center border border-success">Choose an Operation below</span>
-                        <div id='radioBtnOper'>
-                            <div class="row">
-                                <div class="col-sm-6 ">
-                                    <label for="addbtn">Add</label>
-                                    <input type="radio" name="operation" value='+' >
-                                </div>
-                                <div class="col-sm-6">
-                                    <label for="addbtn">Minus</label>
-                                    <input type="radio" name="operation" value='-'>
-                                </div>
-                            </div>
-                            <div class="row">
-                                    <div class="col-sm-6 ">
-                                        <label for="addbtn">Multiply</label>
-                                        <input type="radio" name="operation" value='*'>
-                                    </div>
-                                    <div class="col-sm-6 ">
-                                        <label for="addbtn">Divide</label>
-                                        <input type="radio" name="operation" value='/'>
-                                    </div>
-                            </div>
+        <div class="container">
+                <div class="text-center">
+                    <img src="img/10000Coders.png" alt="10000Coders image">
+                    <span class='h1 text-center d-block'>Calculator</span>
+                </div>  
+            <div class="row">
+                <div class="col-sm-5 ">
+                    <form id="calcSumForm">
+                        <small class="d-none text-danger text-center" id='Num1Error'>Either First Number is missing! or Invalid input(Letters/symbols not allowed!)</small>
+                        <div class="d-flex flex-row  ">
+                            <label for="first-number">Enter First Number:</label>
+                            <input type="number" class="form-inline ml-4" id="txtboxnum1" placeholder="First Number">
                         </div>
-                        
+                    
+                        <small class="d-none text-danger text-center" id='Num2Error'>Either Second Number is missing! or Invalid input(Letters/symbols not allowed!)</small>
+                        <div class="d-flex flex-row ">
+                            <label for="second-number">Enter Second Number:</label>
+                            <input type="number" class="form-inline ml-1" id="txtboxnum2" placeholder="Second Number">
+                        </div>
+                            
+                    </form>
+                </div>
+                <div class="col-sm-4 ">
+                        <small class="d-none text-danger text-center" id='operError'>Choose an operation below!</small>
+                    <span class="h5 d-flex flex-row justify-content-center">Choose an operation below</span>
+                    <div class="d-flex flex-row justify-content-center">
+                        <div >
+                            <label for="addbtn">Add</label>
+                            <input type="radio" name="operation" value='+' >
+                        </div>
+                        <div >
+                            <label for="addbtn">Minus</label>
+                            <input type="radio" name="operation" value='-'>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row justify-content-center">
+                        <div>
+                            <label for="addbtn">Multiply</label>
+                            <input type="radio" name="operation" value='*'>
+                        </div>
+
+                        <div>
+                            <label for="addbtn">Divide</label>
+                            <input type="radio" name="operation" value='/'>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column">
                         <small class="d-none text-danger" id='operError'>No operation selected! Please select operation above</small>
                         <br>
-                        <button type="button" class="btn btn-primary ml-5 align-self-center" id='btn'  >Compute</button> 
-                    </aside>
-                    
-                    <label for="ans" class="align-self-center ml-5 font-weight-bold" id ='calcAns'>Result...</label>
-                 
+                        <button type="button" class="btn btn-primary ml-5 align-self-center" id='btnCompute' >Compute</button> 
+                    </div>
+
+                </div>
+                <div class="col-sm-3">
+                   
+                    <div class=" d-flex flex-row  justify-content-center "> 
+                        <label for="ans" class="font-weight-bold align-self-center" id ='calcAns'>Result...</label>
+                    </div>
+                    <!-- <div class="row align-items-center"> -->
+                      <!-- <div class="col align-self-center">
+                            <label for="ans" class="font-weight-bold border border-info" id ='calcAns'>Result...</label>
+
+                      </div> -->
+                </div>
             </div>
+        </div>
+       
 
     </section>
     
