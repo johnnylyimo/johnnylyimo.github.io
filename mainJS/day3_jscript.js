@@ -1,6 +1,7 @@
 
 
 // Function defination
+const oper_Error = document.getElementById('operError');
 function add(num1, num2){
     return num1 + num2;
 }
@@ -11,17 +12,16 @@ function product(num1, num2){
     return num1 * num2;
 }
 function divide(num1, num2){
-    return num1 / num2;
+      return num1 / num2;
 }
 
-// Access DOM elements  
+// Access DOM elements
 const buttonCompute = document.getElementById("btnCompute");
 const calcRadioBtns = document.getElementsByName('operation');
 const calcResult = document.getElementById('calcAns');
 const operartion_Btns =document.getElementById('radioBtnOper');
 const num1_Error = document.getElementById('Num1Error');
 const num2_Error = document.getElementById('Num2Error');
-const oper_Error = document.getElementById('operError');
 
 
 let textno1 = document.getElementById("txtboxnum1");
@@ -35,29 +35,29 @@ buttonCompute.addEventListener('click', function(){
         num1_Error.classList.add('d-block');
         textno1.focus();
     }
-        
+
     else if(textno2.value.length == 0){
         num2_Error.classList.remove('d-none');
         num2_Error.classList.add('d-block');
         textno2.focus();
-    } 
-  
+    }
+
     else if (buttonCompute.textContent === 'Clear'){
       textno1.value=  '';
       textno2.value = '';
       textno1.focus();
-      buttonCompute.textContent = "Compute"; 
+      buttonCompute.textContent = "Compute";
       calcResult.textContent =' Result...';
       oper_Error.classList.remove('d-block');
       oper_Error.classList.add('d-none');
-      
+
       // reset radio button
       for(let i=0; i<calcRadioBtns.length; i++ ) {
             if(calcRadioBtns[i].checked) {
               calcRadioBtns[i].checked = false;
             }
       }
-    
+
     }
 
     else {
@@ -94,6 +94,13 @@ buttonCompute.addEventListener('click', function(){
                         break;
                     }
                     case '/':{
+                      if (Number(textno2.value) === 0){
+                        num2_Error.classList.remove('d-none');
+                        num2_Error.textContent = "Error! Attempted to devide by zero"
+                        num2_Error.classList.add('d-block');
+                        textno2.focus();
+                      }
+                      else {
                         calcResult.textContent = ' = ' + divide(Number(textno1.value), Number(textno2.value));
                         num1_Error.classList.remove('d-block')
                         num1_Error.classList.add('d-none')
@@ -102,11 +109,12 @@ buttonCompute.addEventListener('click', function(){
                         buttonCompute.textContent = "Clear";
                         break;
                     }
-                }
-            }
-            else{ // if no radio checked display error
-                // oper_Error.classList.remove('d-none');
-                // oper_Error.classList.add('d-block');
+                } // end div case
+            } // end switch
+          }
+            else{// if no radio checked display error
+              // oper_Error.classList.remove('d-none');
+              // oper_Error.classList.add('d-block');
             }
       });
     }
