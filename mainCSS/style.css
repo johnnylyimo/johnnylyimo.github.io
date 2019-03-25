@@ -36,7 +36,6 @@ div input,textarea,select{
 
 
 
-
 /* Create custom radio button */
 div input[type="radio"]  {
      /* removes the browser's native UI design and allows you to style your own.  */
@@ -53,7 +52,7 @@ div input[type="radio"]  {
      border-radius: 50px;
      margin-right: 7px;
      outline: none;
-     cursor: pointer;     
+     cursor: pointer;
 
     /* background-color only for content */
      background-color: #f1f1f1;
@@ -69,11 +68,11 @@ div input[type="radio"]:checked::before {
     content: '\02143';
     transform: rotate(40deg);
     color: #fff;
- } 
- 
+ }
+
 div input[type="radio"]:checked {
      background-color: green;
-  }   
+  }
 
 div input[type="radio"]:hover{
        background-color: green;
@@ -97,7 +96,7 @@ div input[type="radio"]:hover{
     border-radius: 3px;
     margin-right: 7px;
     outline: none;
-    cursor: pointer;     
+    cursor: pointer;
 
    /* background-color only for content */
     background-color: #f1f1f1;
@@ -112,11 +111,11 @@ div input[type="radio"]:hover{
     content: '\02143';
     transform: rotate(40deg);
     color: #fff;
- } 
- 
+ }
+
 div input[type="checkbox"]:checked {
      background-color: green;
-  }   
+  }
 
 div input[type="checkbox"]:hover{
        background-color: green;
@@ -147,7 +146,7 @@ div textarea{
     margin: 20px 10px;
     font-family :Verdana, arial, Tahoma, "Times New Roman" Georgia, serif, sans-serif;
 
-    background-color:#c9c9c9;  
+    background-color:#c9c9c9;
 
 }
 
@@ -161,7 +160,7 @@ div textarea{
     box-sizing: border-box;
     padding: 20px 10px;
     border: 1px solid lightgray;
-  
+
     box-shadow:  0 0 10px 5px rgba(0,0,0,0.6);
           -moz-box-shadow: 0 0 10px  5px rgba(0,0,0,0.6);
           -webkit-box-shadow: 0 0 10px 5px rgba(0,0,0,0.6);
@@ -198,10 +197,10 @@ div textarea{
     background-color: #ffffff;
     border: 1px solid black;
     opacity: 0.6;
-    filter: alpha(opacity=60); 
+    filter: alpha(opacity=60);
   }
-  
- .transbox p { 
+
+ .transbox p {
     margin: 5%;
     font-weight: bold;
     color: #000000;
