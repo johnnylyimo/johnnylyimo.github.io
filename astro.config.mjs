@@ -7,3 +7,7 @@ export default defineConfig({
   integrations: [tailwind()],
   site: 'https://johnnylyimo.github.io',
 });
+
+/** Project INFO
+ * hosted on github: https://johnnylyimo.github.io/
+ */
