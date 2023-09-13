@@ -14,6 +14,7 @@ const { title,description } = Astro.props;
 	<Head headTitle={title} headDescription={description}/>
 	<body class='h-full w-full bg-gradient-to-r from-gray-900 via-gray-100 to-gray-900'>
 		<slot />
+		<Footer />
 	</body>
 </html>
 <style is:global>
