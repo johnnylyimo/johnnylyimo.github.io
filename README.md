@@ -1,54 +1,26 @@
-# Astro Starter Kit: Basics
+# My Simple Website, just an entry point to my portfolio site
 
-```sh
-npm create astro@latest -- --template basics
-```
+> Developed by myself  🧑‍🚀 **Astronaut Coder**  using Astro Framework 🚀 
+https://avatars.githubusercontent.com/u/17325524?v=4
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+## MemoryDiary this time is Web App developed using Next.js
+MemoryDiary App allow you record day to day memories that happen in your life. It pretty amazing app. Previous it was developed for Android mobile App using Flutter, then Flutter Web App and Flutter Desktop App; all these projects are here,  you can find them in my GitHub repositories.
 
 ## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Feel free to check my repositories of different projects Desktop, Mobile and Web Apps [my repositories](https://github.com/johnnylyimo?tab=repositories).
+
+# Please Support me
+I will going on developing apps and share them here. If you like what am doing and the good spirit i have of sharing with you; please support me click buy me a coffee below.
+<br />
+<a href="https://www.buymeacoffee.com/johnnylyimo" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
+```
+print (" SHARING IS CARING ")
+```
+ 
+```
+fmt.Println (" THROUGH CODING LET ME ALSO MAKE THE THE WORLD BETTER PLACE. ")
+```
+
+          
