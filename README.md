@@ -4,7 +4,7 @@
 
 ## 👀 Want to learn more?
 
-Feel free to check [my repositories](https://github.com/johnnylyimo?tab=repositories) of different projects Desktop, Mobile and Web Apps ).
+Feel free to check [my repositories](https://github.com/johnnylyimo?tab=repositories) of different projects on different platform Desktop, Mobile and Web Apps ).
 
 # Please Support me
 I will going on developing apps and share them here. If you like what am doing and the good spirit i have of sharing with you; please support me click buy me a coffee below.
