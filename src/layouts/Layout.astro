@@ -1,5 +1,6 @@
 ---
 import Head from '../components/Head.astro';
+import Footer from '../components/Footer.astro';
 interface Props {
 	title: string;
 	description: string;
@@ -28,19 +29,7 @@ const { title,description } = Astro.props;
 		);
 	}
 	html {
-		font-family: system-ui, sans-serif;
-		background: #13151a;
+		background: #9ca3af;
 		background-size: 224px;
-	}
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
 	}
 </style>
