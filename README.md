@@ -1,4 +1,4 @@
-# My Simple Website, just an entry point to my portfolio site
+# My Simple Landing page, just an entry point to my portfolio site
 
 > Developed by [me, myself & i](https://avatars.githubusercontent.com/u/17325524?v=4) 🧑‍🚀 **Astronaut Coder**  using Astro Framework 🚀 
 
