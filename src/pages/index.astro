@@ -10,7 +10,6 @@ import devImg from '../assets/dev-john.svg'
 		<h2 class="font-semibold text-2xl mt-2 bg-gradient-to-r from-[#64748b] to-[#403c56] bg-clip-text text-transparent">
             About Me
         </h2>
-		<div>
 			<div class='z-10 p-4 bg-gradient-to-bl from-slate-900 via-gray-400 to-slate-900 text-[#e8ecf1] grid place-items-center gap-2'>
 				<p>
 					My name is John Lyimo, I'm a freelancer full stack software developer with over 5 years of experience. I specialize in helping early stage companies bring their ideas to life as new mobile apps and websites. 
@@ -22,7 +21,6 @@ import devImg from '../assets/dev-john.svg'
 					Visit my Porfolio
 				</a>
 			</div>
-			<Image src={devImg} width-{200} alt='developer at work' format='svg' fetchpriority='high' />
-	</div>
+			<Image src={devImg} width-{200} alt='developer at work' format='svg' fetchpriority='high' class='object-cover  />
 	</main>
 </Layout>
